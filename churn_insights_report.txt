@@ -1,0 +1,69 @@
+
+=======================================================
+CUSTOMER CHURN ANALYSIS — BUSINESS INSIGHTS REPORT
+=======================================================
+
+OVERVIEW
+--------
+Total Customers Analysed : 7,043
+Churned Customers        : 1,758 (25%)
+Retained Customers       : 5,285 (75%)
+
+-------------------------------------------------------
+INSIGHT 1: Contract Type is the #1 Churn Driver
+-------------------------------------------------------
+- Month-to-month customers churn at 38%
+- One year contracts churn at only 8.6%
+- Two year contracts churn at only 9.3%
+
+RECOMMENDATION:
+Offer discounts or free add-ons to encourage
+month-to-month customers to upgrade to annual contracts.
+Even moving 10% of them to annual contracts would
+significantly reduce overall churn.
+
+-------------------------------------------------------
+INSIGHT 2: New Customers are the Highest Risk
+-------------------------------------------------------
+- Churn is heavily concentrated in first 0-15 months
+- After 15 months customers become much more stable
+- Average tenure of churned customers: 31.3 months
+
+RECOMMENDATION:
+Launch a new customer onboarding program — proactive
+check-ins, tutorials, and loyalty rewards in the first
+3-6 months to build early engagement and commitment.
+
+-------------------------------------------------------
+INSIGHT 3: Price is NOT the Problem
+-------------------------------------------------------
+- Churned customers pay avg $68.19/month
+- Retained customers pay avg $67.96/month
+- Almost zero difference
+
+RECOMMENDATION:
+Do NOT focus on price cuts to reduce churn.
+Focus instead on engagement, commitment, and
+service quality — that is what retains customers.
+
+-------------------------------------------------------
+INSIGHT 4: Fiber Optic Needs Special Attention
+-------------------------------------------------------
+- Fiber optic customers churn at 29%
+- Higher than DSL (21%) and No Internet (22%)
+- These are premium, tech-savvy customers
+
+RECOMMENDATION:
+Introduce a fiber optic loyalty program with priority
+support, speed guarantees, and competitive pricing
+reviews to retain these high-value customers.
+
+-------------------------------------------------------
+OVERALL BUSINESS RECOMMENDATION
+-------------------------------------------------------
+Focus retention budget on:
+1. Month-to-month customers → push to annual contracts
+2. New customers (0-15 months) → strong onboarding
+3. Fiber optic customers → loyalty & premium support
+
+=======================================================
