@@ -1,6 +1,6 @@
 # 📊 Customer Churn Analysis — Telecom Industry
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](Dashboard.png)
 
 🔗 **[View Live Interactive Dashboard on Tableau Public](https://public.tableau.com/views/CustomerChurnAnalysis_17791337844280/Dashboard1)**
 
@@ -34,9 +34,9 @@ This project answers the key business question:
 | Target Variable | `Churn` (Yes/No) |
 
 **Features include:**
-- **Demographics** — Gender, Senior Citizen, Partner, Dependents
-- **Services** — Phone, Internet, Streaming, Security, Tech Support
-- **Account Info** — Contract type, Payment method, Tenure, Monthly charges
+- **Demographics** - Gender, Senior Citizen, Partner, Dependents
+- **Services** - Phone, Internet, Streaming, Security, Tech Support
+- **Account Info** - Contract type, Payment method, Tenure, Monthly charges
 
 ---
 
@@ -58,28 +58,28 @@ This project answers the key business question:
 Raw Data → Data Cleaning → Exploratory Analysis → Insights → Dashboard → Recommendations
 ```
 
-### Phase 1 — Data Understanding
-Loaded and inspected the dataset — checked shape, data types, column descriptions, and target variable distribution.
+### Phase 1 - Data Understanding
+Loaded and inspected the dataset - checked shape, data types, column descriptions, and target variable distribution.
 
-### Phase 2 — Data Cleaning
+### Phase 2 - Data Cleaning
 - Found and fixed **11 missing values** in `TotalCharges` using the formula `Tenure × MonthlyCharges` a logical imputation rather than dropping rows or using mean
 - Converted `SeniorCitizen` from 0/1 integer to Yes/No to match other columns
 - Verified zero remaining nulls before proceeding to analysis
 
-### Phase 3 — Exploratory Data Analysis
+### Phase 3 - Exploratory Data Analysis
 Analysed churn patterns across contract type, tenure, monthly charges, and internet service type using visualizations.
 
-### Phase 4 — Business Insights & Recommendations
+### Phase 4 - Business Insights & Recommendations
 Translated data findings into actionable business strategies.
 
-### Phase 5 — Dashboard
+### Phase 5 - Dashboard
 Built an interactive Tableau dashboard for stakeholders to explore churn patterns by segment.
 
 ---
 
 ## 📈 Key Findings
 
-### 1️⃣ Overall Churn Rate — 25%
+### 1️⃣ Overall Churn Rate - 25%
 1 in 4 customers churned. This 75/25 split represents a class imbalance important for any future modelling work.
 
 ### 2️⃣ Contract Type is the #1 Churn Driver
@@ -100,7 +100,7 @@ Churn is heavily concentrated in the **first 0–15 months**. After that, custom
 | Churned | $68.19 |
 | Retained | $67.96 |
 
-Almost zero difference. This is a critical negative finding — **lowering prices will NOT fix churn.** The issue is commitment and engagement, not cost.
+Almost zero difference. This is a critical negative finding - **lowering prices will NOT fix churn.** The issue is commitment and engagement, not cost.
 
 ### 5️⃣ Fiber Optic Customers Churn the Most
 Despite being the premium service, fiber optic customers churn at **29%** compared to DSL at 21%. These are tech-savvy customers with high expectations and awareness of competitor offerings.
@@ -111,11 +111,11 @@ Despite being the premium service, fiber optic customers churn at **29%** compar
 
 | Priority | Recommendation | Expected Impact |
 |----------|---------------|----------------|
-| 🔴 High | Offer discounts or free add-ons to move month-to-month customers to annual contracts | Highest ROI — directly targets #1 churn driver |
+| 🔴 High | Offer discounts or free add-ons to move month-to-month customers to annual contracts | Highest ROI - directly targets #1 churn driver |
 | 🔴 High | Launch onboarding program for new customers in first 3–6 months | Reduces early churn significantly |
 | 🟡 Medium | Create loyalty program for fiber optic customers with priority support | Retains high-value premium customers |
 | 🟡 Medium | Proactive check-ins for customers approaching 12-month mark | Prevents drop-off at key tenure milestone |
-| 🟢 Low | Do NOT focus on price cuts as retention strategy | Save budget — price is not the driver |
+| 🟢 Low | Do NOT focus on price cuts as retention strategy | Save budget - price is not the driver |
 
 ---
 
@@ -146,7 +146,7 @@ Customer-Churn-Analysis/
 
 ## 📬 Connect With Me
 
-**Abhinandan**
+**Abhinandan Sonne**
 - 🔗 LinkedIn: [Abhinandan Sonne](https://www.linkedin.com/in/abhinandan-sonne)
 - 💻 GitHub: [https://github.com/Abhisonne](https://github.com/Abhisonne)
 
